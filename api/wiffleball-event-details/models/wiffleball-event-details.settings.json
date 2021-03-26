@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "wiffleball_event_details",
+  "info": {
+    "name": "Wiffleball Event Details"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "event-details.event-details"
+    }
+  }
+}

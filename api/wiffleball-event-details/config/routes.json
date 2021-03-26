@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wiffleball-event-details",
+      "handler": "wiffleball-event-details.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wiffleball-event-details",
+      "handler": "wiffleball-event-details.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wiffleball-event-details",
+      "handler": "wiffleball-event-details.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
