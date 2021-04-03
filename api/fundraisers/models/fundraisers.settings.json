@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "fundraisers",
+  "info": {
+    "name": "Fundraisers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "fundraiserBrief": {
+      "type": "richtext"
+    },
+    "fundraisers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.fundraiser-card"
+    }
+  }
+}

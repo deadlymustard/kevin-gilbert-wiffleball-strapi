@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fundraisers",
+      "handler": "fundraisers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fundraisers",
+      "handler": "fundraisers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fundraisers",
+      "handler": "fundraisers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

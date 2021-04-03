@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_cards_fundraiser_cards",
+  "info": {
+    "name": "Fundraiser Card",
+    "icon": "money-check-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "buttonLabel": {
+      "type": "string",
+      "default": "Go To Event"
+    },
+    "routeId": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
