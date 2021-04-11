@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "past_tournaments",
+  "info": {
+    "name": "Past Tournaments",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    },
+    "carousel": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "year": {
+      "type": "integer"
+    }
+  }
+}

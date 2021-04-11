@@ -7,7 +7,7 @@ This strapi application contains all of the types used to maintain the Kevin Gil
 ### Database
 Begin by creating a local postgres database for your strapi application to write to.
 
-`docker run --name strapi-postgres -e POSTGRES_DB=strapidb -e POSTGRES_PASSWORD=postgres -d -p 5432:5432 postgres`
+`docker run --name strapi-postgres -e POSTGRES_DB=strapidb -e POSTGRES_PASSWORD=postgres -d -p 5555:5432 postgres`
 
 The `config/database.js` is configured to use the values for this created DB.
 

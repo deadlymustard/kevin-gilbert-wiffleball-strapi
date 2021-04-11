@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "wiffle_ball_rules",
+  "info": {
+    "name": "Wiffle Ball Rules"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "general": {
+      "type": "richtext"
+    },
+    "competitive": {
+      "type": "richtext"
+    },
+    "friendly": {
+      "type": "richtext"
+    },
+    "additional": {
+      "type": "richtext"
+    }
+  }
+}

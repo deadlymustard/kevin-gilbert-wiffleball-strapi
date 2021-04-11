@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/past-tournaments",
+      "handler": "past-tournaments.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/past-tournaments/count",
+      "handler": "past-tournaments.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/past-tournaments/:id",
+      "handler": "past-tournaments.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/past-tournaments",
+      "handler": "past-tournaments.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/past-tournaments/:id",
+      "handler": "past-tournaments.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/past-tournaments/:id",
+      "handler": "past-tournaments.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "wiffleball_event_details",
+  "collectionName": "bingo_night_details",
   "info": {
-    "name": "Wiffle Ball Details",
-    "description": ""
+    "name": "Bingo Night Details"
   },
   "options": {
     "increments": true,

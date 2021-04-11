@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bingo-night-details",
+      "handler": "bingo-night-details.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bingo-night-details",
+      "handler": "bingo-night-details.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bingo-night-details",
+      "handler": "bingo-night-details.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
