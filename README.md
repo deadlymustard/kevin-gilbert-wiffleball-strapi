@@ -19,9 +19,11 @@ After the database is running, you can run the app by running:
 `npm run develop`
 
 
-
 ## Deploying
-This application is hosted via Heroku. It uses Heroku's Postgres Plugin to read/write data.
+This application is hosted via Heroku. It uses Heroku's Postgres Plugin to read/write data. Perform the following steps to setup your local environment for deploying:
+
+`heroku login`
+`heroku git:remote -a ktg-wiffleball-strapi`
 
 To deploy, run the following command after you've committed your changes:
 
