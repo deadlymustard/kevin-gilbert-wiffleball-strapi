@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cards_payment_method_cards",
+  "info": {
+    "name": "Payment Method Card",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

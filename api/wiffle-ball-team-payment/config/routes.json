@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wiffle-ball-team-payment",
+      "handler": "wiffle-ball-team-payment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wiffle-ball-team-payment",
+      "handler": "wiffle-ball-team-payment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wiffle-ball-team-payment",
+      "handler": "wiffle-ball-team-payment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

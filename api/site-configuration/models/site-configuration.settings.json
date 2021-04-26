@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_configurations",
+  "info": {
+    "name": "Site Configuration"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "registrationEnabled": {
+      "type": "boolean"
+    },
+    "registrationYear": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kind": "singleType",
+  "collectionName": "wiffle_ball_registers",
+  "info": {
+    "name": "Wiffle Ball Register",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {}
+}

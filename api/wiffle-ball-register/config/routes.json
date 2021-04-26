@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wiffle-ball-register",
+      "handler": "wiffle-ball-register.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wiffle-ball-register",
+      "handler": "wiffle-ball-register.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wiffle-ball-register",
+      "handler": "wiffle-ball-register.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

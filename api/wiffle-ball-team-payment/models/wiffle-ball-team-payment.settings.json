@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "wiffle_ball_team_payments",
+  "info": {
+    "name": "Wiffle Ball Team Payment",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "congratulations": {
+      "type": "string"
+    },
+    "teamHasPaid": {
+      "type": "richtext"
+    },
+    "payAtEvent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.payment-method-card"
+    },
+    "payByCheck": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.payment-method-card"
+    },
+    "payOnline": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cards.payment-method-card"
+    }
+  }
+}
